@@ -40,5 +40,5 @@ if ($totalPrice >= 1000 or $totalPrice == 500) {
 if ($count === '5') {
 	echo "Count: $count<br>";
 }
-
+// true proof
 ?>
