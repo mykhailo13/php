@@ -41,7 +41,6 @@ if ($count === '5') {
 	echo "Count: $count<br>";
 }
 // true proof
-//Arrays
 
 
 
