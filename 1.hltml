@@ -1,0 +1,713 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Language" content="ru">
+<meta http-equiv="Cache-Control" content="private">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="keywords" content="php, скрипты php, скачать php, download, скрипты, программирование, mysql, php mysql, apache, сайт php, php apache, установка php, php учебники, форум, форум php, функции php, php5, php6, изучение php, веб-технологии">
+<meta http-equiv="Keywords" content="php, скрипты php, скачать php, download, скрипты, программирование, mysql, php mysql, apache, сайт php, php apache, установка php, php учебники, форум, форум php, функции php, php5, php6, изучение php, веб-технологии">
+<meta name="description" content="Портал по PHP, MySQL и другим веб-технологиям, Форум PHP программистов">
+<meta http-equiv="description" content="Портал по PHP, MySQL и другим веб-технологиям, Форум PHP программистов">
+<meta name="Resource-type" content="document">
+<meta name="Robots" content="index,follow">
+<title>PHP.SU - Уроки PHP (по материалам форума PHP.SU)</title>
+<LINK href="/main.css" type=text/css rel=stylesheet>
+<script type="text/javascript" src="../main.js"></script>
+</head>
+<body>
+<div align="center">
+<!--Header-->
+<table width=950 height="60" border=0 align="center" cellpadding=0 cellspacing=0>
+  <tr align="left">
+    <td valign="middle" class="backgroundlogo">
+      <table width="100%" border="0">
+        <tr>
+          <td align="left" width="200">
+            <p class="phpsulogo">&nbsp;&nbsp;
+              <a href="http://php.su" style="text-decoration:none" title="Портал по PHP, MySQL и другим веб-технологиям">
+                <span class="xq1">PHP</span><span class="xq2">.</span><span class="xq3">SU</span>
+              </a>
+            </p>
+          </td>
+          <td>
+            <div style="float:left"></div>
+          </td>
+          <td width="20%" valign="middle" align="right" class="backgroundlogo">
+            <p class="phpsulogo">
+              <a href="http://forum.php.su" style="text-decoration:none" title="Форум портала PHP.SU"><span class="xq2">FORUM<span class="xq2">.</span></span><span class="xq1">PHP</span><span class="xq2">.</span><span class="xq3">SU</span></a>&nbsp;&nbsp;
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- End of Header-->
+<!-- Menu -->
+<!-- Header Menu -->
+<table width="950" cellspacing="0" cellpadding="1" border="0">
+  <tr>
+    <td bgcolor="#EBEBEB">
+      <table width="950" border="0" align="left" cellpadding="3" cellspacing="1">
+        <tr>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/">&nbsp;&nbsp;Главная&nbsp;&nbsp;</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/articles/">&nbsp;&nbsp;Статьи&nbsp;&nbsp;</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/learnphp/">Изучение PHP</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/functions/">Функции PHP</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/faq/">FAQ</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/scripts/">PHP скрипты</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/mysql/">MySQL</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/prepare/">Установка</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/books/">Учебники</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/lessons/" title="Уроки на основе обсуждений форума">Уроки</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="/download/">Download</a></b></span>
+          </td>
+          <td align="center" class="nav" background="/hdrm.gif">
+            <span class="navText"><b><a href="http://forum.php.su" title="Форумы портала PHP.SU">&nbsp;&nbsp;Форум&nbsp;&nbsp;</a></b></span>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--End of Header Menu-->
+<br />
+<!--Global table of content-->
+<table cellspacing="0" cellpadding="0" width="950" border="0" bgcolor="#D7EAF7">
+  <tr>
+    <td width="150" valign="top">
+      <table cellspacing="0" cellpadding="0" width="150" border="0">
+        <tr>
+          <td bgcolor="#ffffff">
+            <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+              <tr class="bg2">
+                <td background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/php/" style="color:#FFFFFF">Основы PHP</a></span></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/php/?php">&nbsp;&nbsp;<span class="navText2">Что такое PHP?</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/php/?can">&nbsp;&nbsp;<span class="navText2">Возможности PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/php/?opport">&nbsp;&nbsp;<span class="navText2">Преимущества PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/php/?history">&nbsp;&nbsp;<span class="navText2">История развития</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/php/?php5">&nbsp;&nbsp;<span class="navText2">Что нового в PHP5?</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/php/?phpengine">&nbsp;&nbsp;<span class="navText2">«Движок» PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/php/?migration53">&nbsp;&nbsp;<span class="navText2">Переход на PHP 5.3</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/php/?migration56"><span class="navText2">New&nbsp;Переход на PHP 5.6</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/php/intro/">&nbsp;&nbsp;<span class="navText2">Введение в PHP</span></a></td>
+              </tr>
+            </table>
+            <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+              <tr class="bg2">
+                <td width="145" background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/learnphp/" style="color:#FFFFFF">Изучение PHP</a></span></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/cgi/">&nbsp;&nbsp;<span class="navText2">Основы CGI</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/?syntax">&nbsp;&nbsp;<span class="navText2">Синтаксис PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/datatypes/">&nbsp;&nbsp;<span class="navText2">Типы данных PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/vars/">&nbsp;&nbsp;<span class="navText2">Переменные в PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/?const">&nbsp;&nbsp;<span class="navText2">Константы PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/?expressions">&nbsp;&nbsp;<span class="navText2">Выражения PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/operators/">&nbsp;&nbsp;<span class="navText2">Операторы PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/cs/">&nbsp;&nbsp;<span class="navText2">Конструкции PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/?re">&nbsp;&nbsp;<span class="navText2">Ссылки в PHP</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/learnphp/phpoo/">&nbsp;&nbsp;<span class="navText2">PHP и ООП</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/security/">&nbsp;&nbsp;<span class="navText2">Безопасность</span></a></td>
+              </tr>
+            </table>
+            <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+              <tr class="bg2">
+                <td background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/functions/" style="color:#FFFFFF">Функции PHP</a></span></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/functions/?page=cat">&nbsp;&nbsp;<span class="navText2">Функции по категориям</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/functions/?page=abc">&nbsp;&nbsp;<span class="navText2">Функции по алфавиту</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/functions/?page=standard">&nbsp;&nbsp;<span class="navText2">Стандартные функции</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/functions/custom/">&nbsp;&nbsp;<span class="navText2">Пользовательские</span></a></td>
+              </tr>
+            </table>
+            <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+              <tr class="bg2">
+                <td background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/phphttp/" style="color:#FFFFFF">PHP и HTTP</a></span></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/phphttp/forms/">&nbsp;&nbsp;<span class="navText2">Работа с формами</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/phphttp/?uploads">&nbsp;&nbsp;<span class="navText2">PHP и Upload</span></a></td>
+              </tr>
+              <tr class="bg2">
+                <td class="bg"><a href="/phphttp/?cookies">&nbsp;&nbsp;<span class="navText2">PHP и Cookies</span></a></td>
+              </tr>
+            </table>
+          <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+            <tr class="bg2">
+              <td background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/phpdb/" style="color:#FFFFFF">PHP и базы данных</a></span></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/mysql/">&nbsp;&nbsp;<span class="navText2">PHP и MySQL</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/mysql/manual/">&nbsp;&nbsp;<span class="navText2">Документация MySQL</span></a></td>
+            </tr>
+          </table>
+          <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+            <tr class="bg2">
+              <td background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/books/" style="color:#FFFFFF">Учебники</a></span></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/books/?php">&nbsp;&nbsp;<span class="navText2">Учебники по PHP</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/books/?mysql">&nbsp;&nbsp;<span class="navText2">Учебники по MySQL</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/books/">&nbsp;&nbsp;<span class="navText2">Другие учебники</span></a></td>
+            </tr>
+          </table>
+
+          <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+            <tr class="bg2">
+              <td background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/lessons/" style="color:#FFFFFF">Уроки PHP</a></span></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_0">&nbsp;&nbsp;<span class="navText2">Введение</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_1">&nbsp;&nbsp;<span class="navText2">Самые основы</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_2">&nbsp;&nbsp;<span class="navText2">Управление</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_3">&nbsp;&nbsp;<span class="navText2">Функции</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_4">&nbsp;&nbsp;<span class="navText2">Документация</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_5">&nbsp;&nbsp;<span class="navText2">Математика</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_8">&nbsp;&nbsp;<span class="navText2">Файлы</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_9">&nbsp;&nbsp;<span class="navText2">Основы SQL</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_10">&nbsp;&nbsp;<span class="navText2">Дата и время</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_11">&nbsp;&nbsp;<span class="navText2">CURL</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_12">&nbsp;&nbsp;<span class="navText2">Изображения</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_13">&nbsp;&nbsp;<span class="navText2">Стили</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_14">&nbsp;&nbsp;<span class="navText2">Безопасность</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_15">&nbsp;&nbsp;<span class="navText2">Установка</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_16">&nbsp;&nbsp;<span class="navText2">Проектирование БД</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/lessons/?lesson_17">&nbsp;&nbsp;<span class="navText2">Регулярные выражения</span></a></td>
+            </tr>
+          </table>
+
+          <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+            <tr class="bg2">
+              <td background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/prepare/" style="color:#FFFFFF">Подготовка к работе</a></span></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/prepare/">&nbsp;&nbsp;<span class="navText2">Быстрый старт</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/prepare/?install_apache_php">&nbsp;&nbsp;<span class="navText2">Установка PHP</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/prepare/?install_mysql">&nbsp;&nbsp;<span class="navText2">Установка MySQL</span></a></td>
+            </tr>
+            <tr class="bg2">
+              <td class="bg"><a href="/prepare/?phpini">&nbsp;&nbsp;<span class="navText2">Конфигурация PHP</span></a></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+      <tr class="bg2">
+        <td background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/download/" style="color:#FFFFFF">Download / Скачать</a></span></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/download/?apache">&nbsp;&nbsp;<span class="navText2">Скачать Apache</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/download/?php">&nbsp;&nbsp;<span class="navText2">Скачать PHP</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/download/?pecl">&nbsp;&nbsp;<span class="navText2">Скачать PECL</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/download/?pear">&nbsp;&nbsp;<span class="navText2">Скачать PEAR</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/download/?mysql">&nbsp;&nbsp;<span class="navText2">Скачать MySQL</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/download/editors/">&nbsp;&nbsp;<span class="navText2">Редакторы PHP</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/download/utilites/">&nbsp;&nbsp;<span class="navText2">Полезные утилиты</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/download/?docs">&nbsp;&nbsp;<span class="navText2">Документация</span></a></td>
+      </tr>
+    </table>
+    <table width="150" border="1" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC">
+      <tr class="bg2">
+        <td background="/nmdr.gif" bgcolor="#2170ad">&nbsp;&nbsp;<span class="text2"><a href="/scripts/" style="color:#FFFFFF">PHP скрипты</a></span></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/scripts/?download">&nbsp;&nbsp;<span class="navText2">Скачать скрипты</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/instruments/">&nbsp;&nbsp;<span class="navText2">Инструменты</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/articles/?cat=examples">&nbsp;&nbsp;<span class="navText2">PHP в примерах</span></a></td>
+      </tr>
+      <tr class="bg2">
+        <td class="bg"><a href="/news/">&nbsp;&nbsp;<span class="navText2">Новости портала</span></a></td>
+      </tr>
+    </table>
+  </td>
+  <!--End of Main Menu--><!--End of Menu-->
+<!--MM Spacer-->
+<td width="10" bgcolor="#ffffff"></td>
+<!-- End of MM Spacer-->
+<td width="790" bgcolor="#ffffff" valign="top">
+<!--Main Content-->
+<!--TBL_HAT-->
+<table width="100%" border="0" cellpadding="1" cellspacing="0" bordercolorlight="#CCCCCC" bordercolordark="#FFFFFF">
+<tr>
+  <td height="8" background="/ndrs.gif" bgcolor="#4D7CCC">
+    <span class="hats">
+      &nbsp;<a href="/" title="Портал PHP.SU">Главная</a>
+      &nbsp;&nbsp;&raquo;&nbsp;&nbsp;<a href="/lessons/" title="Уроки PHP (по материалам форума PHP.SU)">Уроки PHP (по материалам форума PHP.SU)</a>    </span>
+  </td>
+</tr>
+</table>
+<!--END OF TBL_HAT-->
+<table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#4D7CCC">
+<tr>
+  <td height="1682" valign="top" bgcolor="#F7F7F7">
+  <index>
+  <!--CONTENT_OF_PAGE-->
+  
+
+<a style="font-size:4px">&nbsp;</a><br />
+<a style="font-size:1px">&nbsp;</a><br/>
+<h2>Урок № 11 - CURL</h2>
+<p class="mtx1">
+  Автор (участник <a href="http://forum.php.su" target="_blank">forum.php.su</a>): 
+  <span style="color:#006633">
+    <a href="http://forum.php.su/profile.php?action=show&member=19" target="_blank">valenok</a>  </span><br />
+  Источник: <a href="http://forum.php.su" target="_blank">forum.php.su</a><br />
+  Обсуждение: <a href="http://forum.php.su/topic.php?forum=62&topic=18" target="_blank">Обсуждение уроков.</a></p>
+<br />
+
+<span style="color: green;"><b><p>libcurl для обмена данными</p></b></span>
+<p>libcurl это библиотека функций, которая позволяет взаимодействовать (обмениваться информацией) с различными серверами по различным протоколам. В настоящее время libcurl поддерживает протоколы http, https, ftp, gopher, telnet, dict, file, и ldap. libcurl также умеет работать с сертификатами HTTPS, посылать запросы к HTTP серверам методами POST и PUT, закачивать файлы по протоколам HTTP и FTP (последнее можно сделать также используя <a href="http://php.su/functions/?ftp" target="_blank">модуль FTP </a>), использовать прокси-серверы, cookies и аутентификацию пользователей.<br />
+<br />
+<br />
+<span style="color: green;"><b>Нас поймут только по протоколу</b></span><br />
+<br />
+Любые сервера, в том числе и web, умеют реагировать на присланные им данные, но только в том случае, если они понимают, что им прислали. Для этого, данные посылаемые им оформляются согласно определенным правилам. Такой набор правил и называется протоколом. Данные по протоколу оформит libcurl сама, мы же лишь рассмотрим далее как их ей передать.<br />
+<br />
+<br />
+<span style="color: green;"><b>Раз, два, начали.</b></span><br />
+<br />
+Функций в библиотеке совсем не много, но одну из них, приводящую шестеренки в действие, вы встретите в любом скрипте с curl.  <span style="color: blue;"><a href="http://php.su/functions/?curl_init" target="_blank">curl_init </a> — Инициализирует сеанс CURL</span>.
+Другими словами - эта функция запускает механизм curl и возвращает указатель, дескриптор на созданный механизм.<br />
+<br />
+Напомню что такое ресурс (указатель), тем кто забыл.<br />
+<br />
+<br />
+<b class="green">Дескриптор ( Resource )</b><br />
+<br />
+Дескриптор представляет из себя указатель, ссылку, на внешний ресурс.<br />
+Представим автосервис с большим количеством машин, которым заливают несколько по литров масла в двигатель. Со свистом тормозов из подворотни вылетает феррари и паркуется на очередной сервисной парковке. Хозяин сервиса уже кричит рабочему, залить 5 литров масла и тычет большим пальцем в красную феррари. <br />
+Наш рабочий получает в данном случае два типа данных - число (литров масла) и указатель на машину, то-есть определение - какому именно объекту из всех вокруг нужно подлить чего-нибудь.<br />
+<br />
+Подмечу, что рабочий получает от босса вовсе не саму машину, а лишь дескриптор (указатель) машины с которой предстоит работать. В php этим дескриптором является тип данных resource.<br />
+<br />
+Функция <a href="http://www.php.su/functions/?curl_init"><strong>curl_init</strong></a> также может сразу принимать url, адрес того сервера с которым будем общаться. Можно его и не указывать, а указать попозже. Инициализировав механизм, можно сразу отправить запрос, ну и наконец освободить память от этого механизма. <br />
+Вот что в итоге получится:</p>
+   <p class="highlight"><code><span style="color: #000000"><span style="color: #0000BB">&lt;?PHP <br />$ch&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">curl_init</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://php.su'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">curl_exec</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;выполняем&nbsp;запрос&nbsp;curl&nbsp;-&nbsp;обращаемся&nbsp;к&nbsp;сервера&nbsp;php.su<br /></span><span style="color: #0000BB">curl_close</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);</span></span><br /><span style="color: #0000BB">?&gt;</span></code>
+</p>
+    <p>Результатом этого кода будет прямой вывод содержимого главной страницы php.su. Не всегда нужно вывести результат запроса прямо в браузер и для этого достаточно просто покрутить пару настроек. Сейчас выясним как это сделать.<br />
+    <br />
+<br />
+<span style="color: green;"><b>Конфигурируем общение</b></span><br />
+<br />
+<span style="color: blue;"><strong><a href="http://php.su/functions/?curl_setopt" target="_blank">curl_setopt </a> </strong></span>— устанавливает параметр для сеанса CURL <br />
+параметры бывают разные, и их много, очень. Какой за что отвечает можно посмотреть, само собой, в справочнике функции <a href="http://php.su/functions/?curl_setopt" target="_blank"><strong>curl_setopt </strong></a>. Мы же сейчас рассмотрим парочку основных и выясним как ими манипулировать.<br />
+<br />
+Но прежде я хочу вернуться на момент к обсуждению протокола http. Из чего же состоит набор правил этого протокола. Давай посмотрим как браузер общается с нашим сервером, что он ему посылает, и что тот от него получает. Я для этого использую расширение браузера livehttpheaders. И вот, что происходит при общении браузера с сервером:<br />
+<br />
+Общение браузера с сервером получилось не слишком замысловатое. Смотрим:<br />
+<br />
+<span style="color: green;">GET /index.php HTTP/1.1</span>  Дай страницу index.php. данные пришли правильно оформленные<br />
+<span style="color: green;">Host: php.su</span> с сайта php.su<br />
+<span style="color: green;">User-Agent: Mozilla/5.0</span> А вот такой вот!<br />
+<span style="color: green;">Accept: text/html</span> И понимаю я только текст и html. <br />
+<span style="color: green;">Accept-Language: ru,en-us;</span> И говори по русски или я твоя не понимать<br />
+<span style="color: green;">Accept-Charset: windows-1251,utf-8;</span> Со специями пожалуйста.<br />
+<span style="color: green;">Connection: keep-alive</span>  Жду от тебя ответа<br />
+<span style="color: green;">Keep-Alive: 300</span> но терпения у меня мало.<br />
+<span style="color: green;">Cookie: lastvisit=1243232518;</span> А еще я заходил вчера и заказывал столик. Помнишь меня ? Нет? ну не важно, ты просил напомнить что я заходил во столько то. Теперь вспомнил? Отлично. Где мой столик ?<br />
+<br />
+<span style="color: blue;">HTTP/1.1 200 OK</span> Данные принял, состояние 200. <br />
+<span style="color: blue;">Date: Mon, 25 May 2009 06:33:05 GMT</span> <br />
+<span style="color: blue;">Server: Apache</span> Вас обслуживает ООО &quot;Сервер Apache&quot;<br />
+<span style="color: blue;">X-Powered-By: PHP/5.2.6</span> Старший шеф повар, php 5.2.6<br />
+<span style="color: blue;">Transfer-Encoding: chunked</span> Это порция первая, вторая ща будет<br />
+<span style="color: blue;">Connection: close</span> А теперь получил?, распишись, больше не жди<br />
+<span style="color: blue;">Content-Type: text/html; charset=cp1251</span> Ваша пицца по русски, с грибами<br />
+<br />
+Сразу после заголовков ответа идёт сам ответ, то есть html страницы. А мы, тем временем, что стали свидетелями общения моего браузера с сервером php.su. А раз браузер может, то и мы с нашей программой можем.<br />
+<br />
+<br />
+<span style="color: green;"><b>Заказываем данные с нужными опциями</b></span><br />
+<br />
+После того, как мы запустили наш код простой код </p>
+   <p class="highlight"><code><span style="color: #000000"><span style="color: #0000BB">&lt;?PHP <br />$ch&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">curl_init</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://php.su'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">curl_exec</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;выполняем&nbsp;запрос&nbsp;curl&nbsp;-&nbsp;обращаемся&nbsp;к&nbsp;сервера&nbsp;php.su<br /></span><span style="color: #0000BB">curl_close</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);</span></span><br /><span style="color: #0000BB">?&gt;</span></code></p>
+    <p>Мы увидели в браузере только html код полученный от сервера. Возможно нам захочется также посмотреть на заголовки, который прислал сервер, а то вдруг я все выше написанное выдумал ?<br />
+<br />
+Для этого установим опцию &quot;показывать заголовки&quot;<br />
+<span style="font-size: 9px;">CURLOPT_HEADER : При установке этого параметра в ненулевое значение результат будет включать полученные заголовки. </span><br />
+Разумеется параметры устанавливать нужно до того, как отправим сам запрос серверу. И так, получилось вот такое:</p>
+<p class="highlight"><code><span style="color: #000000"><span style="color: #0000BB">&lt;?PHP <br />$ch&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">curl_init</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://php.su'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">curl_setopt&nbsp;&nbsp;</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_HEADER</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">curl_exec</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;выполняем&nbsp;запрос&nbsp;curl<br /></span><span style="color: #0000BB">curl_close</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);</span></span><br /><span style="color: #0000BB">?&gt;</span></code></p>
+<p>Возможно нам также захочется получит содержимое в переменную, а вовсе не выводить сразу в браузер. Для этого нам придется установить такое значение среди прочих командой:<strong> <a href="http://www.php.su/functions/?curl_setopt">curl_setopt</a> ($ch, CURLOPT_RETURNTRANSFER, 1);</strong><br />
+<span style="color: green;">
+Хотя документация видимо ошибается в плане настроек..</span> <br />
+<br />
+Позволю себе заметить, что в документации написано что названием параметра должна быть строка. Мы же передаем функции setopt вовсе не строку (кавычек то нет). Мы передаем константу. Предопределенную <i>переменную</i>, значение которой изменить нельзя. <a href="http://php.su/functions/?manual/ru/curl.constants.php" target="_blank">Эти константы </a> сами определяются библиотекой, интересно другое... значения этих констант вовсе не строковые, а численные. Поэтому если кто-то узнает почему в документации написано &quot;строка&quot; вместо числа - дайте мне знать.<br />
+<br />
+А мы пока попробуем авторизоваться на форуме. А для того, чтобы имитировать обычный браузер, нам нужно посмотреть что говорит браузер серверу, что тот ему отвечает и что потом.<br />
+<br />
+<br />
+<span style="color: green;"><b>Строим из себя пользователя</b></span><br />
+<br />
+В первую очередь, чтоб все это показалось правдоподобным, посмотрим что происходит когда мой браузер авторизовывается на форуме. Для этого я опять же воспользуюсь расширением для FireFox под названием <noindex><a href="http://livehttpheaders.mozdev.org/" target="_blank"><strong>liveHttpHeaders</strong></a> </noindex> 
+и вот что я вижу.</p>
+<br />
+<div class="block"><b>CODE:</b><p class="highlight"> http://php.su/forum/loginout.php<br />
+<br />
+POST /forum/loginout.php HTTP/1.1<br />
+Host: php.su<br />
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.10) Gecko/2009042523 Ubuntu/8.10 (intrepid) Firefox/3.0.10 <br />
+Accept: text/html,application/xhtml xml,application/xml;q=0.9,*/*;q=0.8<br />
+Accept-Language: ru,en-us;q=0.7,en;q=0.3<br />
+Accept-Encoding: gzip,deflate<br />
+Accept-Charset: windows-1251,utf-8;q=0.7,*;q=0.7<br />
+Keep-Alive: 300<br />
+Connection: keep-alive<br />
+Referer: http://php.su/forum/loginout.php<br />
+Content-Type: application/x-www-form-urlencoded<br />
+Content-Length: 71<br />
+action=login&amp;imembername=valenok&amp;ipassword=ne_skaju&amp;submit=%C2%F5%EE%E4<br />
+<br />
+HTTP/1.x 302 Found<br />
+Date: Tue, 26 May 2009 14:09:09 GMT<br />
+Server: Apache<br />
+X-Powered-By: PHP/5.2.6<br />
+Expires: Thu, 19 Nov 1981 08:52:00 GMT<br />
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0<br />
+Pragma: no-cache<br />
+Set-Cookie: lastvisit=1243346949; expires=Wed, 26-May-2010 14:09:09 GMT; path=/<br />
+Set-Cookie: exbbn=19; expires=Wed, 26-May-2010 14:09:09 GMT; path=/<br />
+Set-Cookie: exbbp=1234567525d2b72bcb01cd2ffe123456; expires=Wed, 26-May-2010 14:09:09 GMT; path=/<br />
+Set-Cookie: PHPSESSID=123456789e4eef401e4539060010cc0f;<br />
+Set-Cookie: lastvisit=1243346949; expires=Wed, 26-May-2010 14:09:09 GMT; path=/<br />
+Location: index.php<br />
+Content-Encoding: gzip<br />
+Vary: Accept-Encoding<br />
+Content-Length: 26<br />
+Connection: close<br />
+Content-Type: text/html; charset=cp1251</p></div>
+<p>
+Запрос отличается от предыдущего лишь немногим. рассмотрим разницу.<br />
+<br />
+<span style="color: green;">POST /forum/loginout.php HTTP/1.1</span> На этот раз мы не просто просим дать нам содержимое страницы, но отправляем серверу свои данные.<br />
+<span style="color: green;">Referer: http://php.su/forum/loginout.php</span> Откуда мы шлем данные (на какой страницы только что был браузер).<br />
+<span style="color: green;">Content-Type: application/x-www-form-urlencoded</span> тип данных (данные из формы).<br />
+<span style="color: green;">Content-Length: 71</span> длинна посылаемых данных. <br />
+<span style="color: green;">action=login&amp;imembername=valenok&amp;ipassword=ne_skaju&amp;submit=%C2%F5%EE%E4</span> ну и сами данные.. Заметь что отправляются все данные из формы.<br />
+<br />
+А вот ответ немного отличается от предыдущего. В нем появляются новые заголовки. В первую очередь нас интересуют Set-Cookie и Location. Остальные особой роли не играют и что они означают можно найти в википедии. <br />
+<br />
+Set-Cookie как ты видишь, и их много, возможно тебе уже знаком. Задача данного заголовка это наклеить на тебя наклейку с именем, чтобы потом сервер мог тебя по нему узнать и сказать, ах, да, точно, это ты. Разумеется для этого при каждом следующем обращении к серверу нужно будет приходить с этой наклейкой.<br />
+<br />
+Location: index.php перенаправляет браузер на другую страницу, после авторизации.<br />
+<br />
+<span style="color: brown;">Ну что, теперь попробуем сыграть за браузер ?</span>
+
+Я тоже браузер</span></b><br />
+Будем анализировать на практике. Код получился следующий.</p>
+   <p class="highlight"><code><span style="color: #000000"><span style="color: #0000BB">&lt;?PHP <br /><br />$ch&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">curl_init</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://php.su/forum/loginout.php'</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">#&nbsp;/forum/loginout.php&nbsp;HTTP/1.1<br /><br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_POST</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">#&nbsp;POST&nbsp;/forum/..<br /><br /><br /></span><span style="color: #0000BB">curl_setopt&nbsp;</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_USERAGENT</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"Mozilla/5.0&nbsp;(бла&nbsp;бла&nbsp;бла..)&nbsp;"</span><span style="color: #007700">);&nbsp;<br /></span><span style="color: #FF8000">#&nbsp;User-Agent<br /><br /><br /></span><span style="color: #0000BB">$headers&nbsp;</span><span style="color: #007700">=&nbsp;array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'Accept:&nbsp;text/html,application/xhtml+xml,application/xml;q=0.9,*;q=0.8'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'Accept-Language:&nbsp;ru,en-us;q=0.7,en;q=0.3'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'Accept-Encoding:&nbsp;deflate'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'Accept-Charset:&nbsp;windows-1251,utf-8;q=0.7,*;q=0.7'<br /></span><span style="color: #007700">);&nbsp;<br /><br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_HTTPHEADER</span><span style="color: #007700">,</span><span style="color: #0000BB">$headers</span><span style="color: #007700">);&nbsp;<br /></span><span style="color: #FF8000">#&nbsp;добавляем&nbsp;заголовков&nbsp;к&nbsp;нашему&nbsp;запросу.&nbsp;Чтоб&nbsp;смахивало&nbsp;на&nbsp;настоящих<br /><br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_REFERER</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"http://php.su/forum/loginout.php"</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">#&nbsp;Подделываем&nbsp;значение&nbsp;-&nbsp;откуда&nbsp;пришли&nbsp;данные.<br /><br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_POSTFIELDS</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'action=login&amp;imembername=valenok&amp;ipassword=ne_skaju&amp;submit=%C2%F5%EE%E4'</span><span style="color: #007700">);<br /></span><span style="color: #FF8000">#&nbsp;post&nbsp;данные.<br />#&nbsp;умная&nbsp;libcurl&nbsp;сама&nbsp;добавит&nbsp;заголовки<br />#&nbsp;Content-Type:&nbsp;application/x-www-form-urlencoded&nbsp;и&nbsp;Content-Length:&nbsp;71<br /><br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_COOKIEJAR</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"my_cookies.txt"</span><span style="color: #007700">);&nbsp;&nbsp;<br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_COOKIEFILE</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"my_cookies.txt"</span><span style="color: #007700">);&nbsp;&nbsp;<br /></span><span style="color: #FF8000">#&nbsp;Функции&nbsp;для&nbsp;обработки&nbsp;устанавливаемых&nbsp;форумом&nbsp;кук.<br />#&nbsp;подробнее&nbsp;рассмотрим&nbsp;далее.<br /><br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_RETURNTRANSFER</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;<br /></span><span style="color: #FF8000">#&nbsp;Убираем&nbsp;вывод&nbsp;данных&nbsp;в&nbsp;браузер.&nbsp;Пусть&nbsp;функция&nbsp;их&nbsp;возвращает&nbsp;а&nbsp;не&nbsp;выводит<br /><br /></span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">curl_exec</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);&nbsp;</span><span style="color: #FF8000">//&nbsp;выполняем&nbsp;запрос&nbsp;curl<br /></span><span style="color: #0000BB">curl_close</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);</span></span><span style="color: #0000BB"><br />
+      ?&gt;</span></code>
+</p>
+    <p>Какой параметр за что отвечает я показал в коде. Если что-то не до конца ясно, всегда можно посмотреть в документации. Тем не менее, двумя словами опишу параметры cookiejar и cookiefile.<br />
+<br />
+Когда сервер выдает нам куки, то есть наклейку - Ты такой-то, он потом смотрит на эту наклейку и вспоминает тебя. Но нам для этого разумеется нужно обращаться к серверу когда наклейка у нас висит на видном месте.  libcurl может за нас сохранять наклейку в файл, если мы его укажем в параметре cookiejar и также посылать куки, то есть обращаться вместе с наклейкой, если мы укажем файл в котором эту наклейку мы сохранили cookiefile. А так как нужно было для авторизации чтоб сервер запомнил что мы, это мы при следующем обращение, то на самом деле нужно было просто получить при авторизации куки. Поэтому вот как мы это сделаем.</p>
+    <p class="highlight"><code><span style="color: #000000"><span style="color: #0000BB">&lt;?PHP <br />$ch&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">curl_init</span><span style="color: #007700">(</span><span style="color: #DD0000">'http://php.su/forum/loginout.php'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_POST</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_NOBODY</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_POSTFIELDS</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'action=login&amp;imembername=valenok&amp;ipassword=ne_skaju&amp;submit=%C2%F5%EE%E4'</span><span style="color: #007700">);<br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_COOKIEJAR</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"my_cookies.txt"</span><span style="color: #007700">);&nbsp;&nbsp;<br /></span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">CURLOPT_RETURNTRANSFER</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);&nbsp;<br /></span><span style="color: #0000BB">curl_exec</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);&nbsp;<br /></span><span style="color: #0000BB">curl_close</span><span style="color: #007700">(</span><span style="color: #0000BB">$ch</span><span style="color: #007700">);</span></span><span style="color: #0000BB"><br />
+      ?&gt;</span></code></p>
+<p>Здесь я сократил несколько этапов. Причиной стало то, что сервер на самом деле не проверяет откуда пришли данные авторизации, поэтому реферер указывать не имеет смысла. Какой браузер авторизовывается - ему тоже все равно. Уберем.<br />
+Заголовки о том, что мы хотим получить в ответ - тоже отправлять не будем. В ответ же мы все равно получим куки и перенаправление. Кроме того почти ни один программист все равно эти заголовки не учитывает. Они как бараны решили что знают как правильно и что нужно пользователю - и все тут.<br />
+Также установлен параметр - без тела (nobody) который говорит что весь html нам не нужен, нужны только заголовки. На самом деле его там и нет, но это только в нашем случае. На самом деле скрипт может и проводить авторизацию и ругаться в одном флаконе.<br />
+Присвоение результата в переменную я тоже убрал. Зачем нам в памяти результат запроса.. Мы и так знаем что он успешен. Но если не знаем, можно для примера проверять на наличие перенаправления Location:index.php и на основании этого решать, правильно ли авторизовались или нет. Но ничего ли мы не забыли ?<br />
+<br />
+<br />
+<b><span style="color: green;">Пара рекомендаций </span></b><br />
+<br />
+На самом деле все что бы могло тебе потребоваться - мы уже прошли. Ты умеешь уже авторизоваться где нибудь, отправить форму (пост данные) средствами библиотеки curl при этом выдавать себя за другой браузер. И напоминать серверу кто ты - с прошлого раза при помощи кук.<br />
+<br />
+Я же лишь скажу что иногда тебе вовсе не нужна страница, а лишь её заголовки, как в нашем примере авторизации. Еще не нужно для каждого запроса создавать в памяти экземпляр механизма curl. Один раз его инициализируем, потом просто меняем параметры и адрес url. Думаю этого вполне хватит для успешного обмена данным с другими сайтами по началу, ну а если не хватит, то можно рассмотреть несколько сложных случаев далее.				
+
+Несколько параллельных запросов и <a href="http://www.php.su/functions/?curl_multi_init"><strong>curl_multi_init</strong></a> </b></span><br />
+<br />
+Если бы нам нужно было бы получить допустим содержания трех страниц, то наверное мы бы отправили запрос сначала на одну, получили результат, отправили на вторую и потом только на третью. Но вот чудо - эта библиотека позволяет отправить запрос сразу в 3 источника параллельно, при этом затратить на все это дело столько же времени сколько на один запрос.<br />
+<br />
+Для следующего кода примеры данных $data могут быть следующими:</p>
+    <p class="highlight"><code><span style="color: #000000"><span style="color: #0000BB">&lt;?PHP <br /></span><span style="color: #FF8000">//&nbsp;GET<br /></span><span style="color: #0000BB">$data&nbsp;</span><span style="color: #007700">=&nbsp;Array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'http://yandex.ru'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'http://php.su'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'http://google.com'<br /></span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">//&nbsp;POST<br /></span><span style="color: #0000BB">$data&nbsp;</span><span style="color: #007700">=&nbsp;Array<br />(<br />&nbsp;&nbsp;&nbsp;&nbsp;Array(</span><span style="color: #DD0000">'url'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'http://yandex.ru/login.php'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'post'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'a=b&amp;c=d'</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;&nbsp;Array(</span><span style="color: #DD0000">'url'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'http://php.su/index.php'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'post'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'a=b&amp;c=d'</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;&nbsp;Array(</span><span style="color: #DD0000">'url'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'http://google.com/search.py'</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'post'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">'a=b&amp;c=d'</span><span style="color: #007700">)<br />);</span></span><span style="color: #0000BB"><br />
+      ?&gt;</span></code></p>
+    <p>Сама функция:</p>
+    <p class="highlight"><code><span style="color: #000000"><span style="color: #0000BB">&lt;?PHP <br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">multiCurl</span><span style="color: #007700">(</span><span style="color: #0000BB">$data</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$options&nbsp;</span><span style="color: #007700">=&nbsp;array())&nbsp;<br />{<br /><br />&nbsp;&nbsp;</span><span style="color: #0000BB">$curls&nbsp;</span><span style="color: #007700">=&nbsp;array();<br />&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Массив&nbsp;дескрипторов.&nbsp;Библиотека&nbsp;создает&nbsp;много&nbsp;экземпляров&nbsp;своего&nbsp;<br />&nbsp;&nbsp;//&nbsp;механизма,&nbsp;но&nbsp;работать&nbsp;они&nbsp;будут&nbsp;параллельно<br />&nbsp;&nbsp;<br />&nbsp;&nbsp;</span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">=&nbsp;array();<br />&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;массив&nbsp;с&nbsp;результатами&nbsp;запрошенных&nbsp;страниц&nbsp;которые&nbsp;наша&nbsp;функция&nbsp;вернет.<br /><br />&nbsp;&nbsp;</span><span style="color: #0000BB">$mh&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">curl_multi_init</span><span style="color: #007700">();<br />&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Дескриптор&nbsp;мульти&nbsp;потока.&nbsp;То есть&nbsp;эта&nbsp;штука&nbsp;отвечает&nbsp;за&nbsp;то,&nbsp;чтобы&nbsp;много<br />&nbsp;&nbsp;//&nbsp;запросов&nbsp;шли&nbsp;параллельно.<br /><br />&nbsp;&nbsp;</span><span style="color: #007700">foreach&nbsp;(</span><span style="color: #0000BB">$data&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$id&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$d</span><span style="color: #007700">)&nbsp;{<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$curls</span><span style="color: #007700">[</span><span style="color: #0000BB">$id</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">curl_init</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Для&nbsp;каждого&nbsp;url&nbsp;создаем&nbsp;отдельный&nbsp;curl&nbsp;механизм&nbsp;чтоб&nbsp;посылал&nbsp;запрос)<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;(</span><span style="color: #0000BB">is_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$d</span><span style="color: #007700">)&nbsp;&amp;&amp;&nbsp;!empty(</span><span style="color: #0000BB">$d</span><span style="color: #007700">[</span><span style="color: #DD0000">'url'</span><span style="color: #007700">]))&nbsp;?&nbsp;</span><span style="color: #0000BB">$d</span><span style="color: #007700">[</span><span style="color: #DD0000">'url'</span><span style="color: #007700">]&nbsp;:&nbsp;</span><span style="color: #0000BB">$d</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Если&nbsp;$d&nbsp;это&nbsp;массив&nbsp;(как&nbsp;в&nbsp;случае&nbsp;с&nbsp;пост),&nbsp;то&nbsp;достаем&nbsp;из&nbsp;массива&nbsp;url<br />&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;если&nbsp;это&nbsp;не&nbsp;массив,&nbsp;а&nbsp;уже&nbsp;ссылка&nbsp;-&nbsp;то&nbsp;берем&nbsp;сразу&nbsp;ссылку<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$curls</span><span style="color: #007700">[</span><span style="color: #0000BB">$id</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">CURLOPT_URL</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$url</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$curls</span><span style="color: #007700">[</span><span style="color: #0000BB">$id</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">CURLOPT_HEADER</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$curls</span><span style="color: #007700">[</span><span style="color: #0000BB">$id</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">CURLOPT_RETURNTRANSFER</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Если&nbsp;у&nbsp;нас&nbsp;есть&nbsp;пост&nbsp;данные,&nbsp;то есть&nbsp;запрос&nbsp;отправляется&nbsp;постом&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;устанавливаем&nbsp;флаги&nbsp;и&nbsp;добавляем&nbsp;сами&nbsp;данные<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">is_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$d</span><span style="color: #007700">)&nbsp;&amp;&amp;&nbsp;!empty(</span><span style="color: #0000BB">$d</span><span style="color: #007700">[</span><span style="color: #DD0000">'post'</span><span style="color: #007700">]))&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$curls</span><span style="color: #007700">[</span><span style="color: #0000BB">$id</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">CURLOPT_POST</span><span style="color: #007700">,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">curl_setopt</span><span style="color: #007700">(</span><span style="color: #0000BB">$curls</span><span style="color: #007700">[</span><span style="color: #0000BB">$id</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">CURLOPT_POSTFIELDS</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$d</span><span style="color: #007700">[</span><span style="color: #DD0000">'post'</span><span style="color: #007700">]);<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Если&nbsp;указали&nbsp;дополнительные&nbsp;параметры&nbsp;$options&nbsp;то&nbsp;устанавливаем&nbsp;их<br />&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;смотри&nbsp;документацию&nbsp;функции&nbsp;curl_setopt_array<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">if&nbsp;(</span><span style="color: #0000BB">count</span><span style="color: #007700">(</span><span style="color: #0000BB">$options</span><span style="color: #007700">)&gt;</span><span style="color: #0000BB">0</span><span style="color: #007700">)&nbsp;</span><span style="color: #0000BB">curl_setopt_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$curls</span><span style="color: #007700">[</span><span style="color: #0000BB">$id</span><span style="color: #007700">],&nbsp;</span><span style="color: #0000BB">$options</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;добавляем&nbsp;текущий&nbsp;механизм&nbsp;к&nbsp;числу&nbsp;работающих&nbsp;параллельно<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">curl_multi_add_handle</span><span style="color: #007700">(</span><span style="color: #0000BB">$mh</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$curls</span><span style="color: #007700">[</span><span style="color: #0000BB">$id</span><span style="color: #007700">]);<br />&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;число&nbsp;работающих&nbsp;процессов.<br />&nbsp;&nbsp;</span><span style="color: #0000BB">$running&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;curl_mult_exec&nbsp;запишет&nbsp;в&nbsp;переменную&nbsp;running&nbsp;количество&nbsp;еще&nbsp;не&nbsp;завершившихся<br />&nbsp;&nbsp;//&nbsp;процессов.&nbsp;Пока&nbsp;они&nbsp;есть&nbsp;-&nbsp;продолжаем&nbsp;выполнять&nbsp;запросы.<br />&nbsp;&nbsp;</span><span style="color: #007700">do&nbsp;{&nbsp;</span><span style="color: #0000BB">curl_multi_exec</span><span style="color: #007700">(</span><span style="color: #0000BB">$mh</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$running</span><span style="color: #007700">);&nbsp;}&nbsp;while(</span><span style="color: #0000BB">$running&nbsp;</span><span style="color: #007700">&gt;&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Собираем&nbsp;из&nbsp;всех&nbsp;созданных&nbsp;механизмов&nbsp;результаты,&nbsp;а&nbsp;сами&nbsp;механизмы&nbsp;удаляем<br />&nbsp;&nbsp;</span><span style="color: #007700">foreach(</span><span style="color: #0000BB">$curls&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$id&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$c</span><span style="color: #007700">)&nbsp;<br />&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">[</span><span style="color: #0000BB">$id</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">curl_multi_getcontent</span><span style="color: #007700">(</span><span style="color: #0000BB">$c</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">curl_multi_remove_handle</span><span style="color: #007700">(</span><span style="color: #0000BB">$mh</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$c</span><span style="color: #007700">);<br />&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;Освобождаем&nbsp;память&nbsp;от&nbsp;механизма&nbsp;мультипотоков<br />&nbsp;&nbsp;</span><span style="color: #0000BB">curl_multi_close</span><span style="color: #007700">(</span><span style="color: #0000BB">$mh</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;возвращаем&nbsp;данные&nbsp;собранные&nbsp;из&nbsp;всех&nbsp;потоков.<br />&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">;<br />}<br />
+     <span style="color: #0000BB">?&gt;</span></span></span></code></p>
+<br />
+
+
+<a style="font-size:4px">&nbsp;</a><br />
+
+</index>
+<a style="font-size:4px">&nbsp;</a><br />
+<table width="300" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#000066" class="mtx1">
+<tr>
+<td bgcolor="#CAEEFF"><center>&nbsp;<a href="/lessons/?lesson_10"><strong>&lt;&lt;&lt;&nbsp;Назад</strong></a>&nbsp;
+</center></td>
+<td bgcolor="#CAEEFF"><center>&nbsp;<a href="/lessons/"><strong>Содержание</strong></a>&nbsp;
+</center></td>
+<td bgcolor="#CAEEFF"><center>&nbsp;<a href="/lessons/?lesson_12"><strong>Вперед&nbsp;&gt;&gt;&gt;</strong></a>&nbsp;
+</center></td>
+</tr>
+</table>
+  <center>
+  <table width="470" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#000066" class="mtx1">
+    <tr>
+      <td bgcolor="#CAEEFF">
+        <center>
+          Есть еще вопросы или что-то непонятно - добро пожаловать на наш &nbsp;<a href="http://forum.php.su" title="форум портала PHP.SU" target="_phpsuforum"><b>форум портала <span class="xq1">PHP</span><span class="xq2">.</span><span class="xq3">SU</span></b></a>&nbsp;
+        </center>
+      </td>
+    </tr>
+    <tr><td bgcolor="#F7F7F7">&nbsp;</td></tr>
+    <tr>
+      <td bgcolor="#CAEEFF">
+        <table width="100%">
+        <tr>
+          <td width="100%">
+            <script type="text/javascript">
+            window.vkAsyncInit = function() {
+              VK.init({apiId: 2254330, onlyWidgets: true});
+              VK.Widgets.Like('vk_like', {pageUrl: 'http://php.su', type: 'button'});
+            }
+            </script>
+            <span id="vk_like"></span>
+            <span class="g-plusone" data-href="http://php.su"></span>
+            <a href="http://twitter.com/share" class="twitter-share-button" data-lang="ru" data-url="http://php.su">Tweet</a>
+          </td>
+        </tr>
+        <tr>
+          <td width="100%">
+            <span class="fb-like" data-href="http://www.php.su" data-layout="button_count" data-action="recommend" data-send="true"></span>
+          </td>
+        </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  </center>
+  </index>
+  </td>
+</tr>
+
+<tr>
+  <td valign="bottom" bgcolor="#F7F7F7">
+    <center>
+<script type="text/javascript"><!--
+google_ad_client = "pub-6731571838950830";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text";
+google_ad_channel ="8345202312";
+google_color_border = "F7F7F7";
+google_color_link = "0066CC";
+google_color_bg = "F7F7F7";
+google_color_text = "000000";
+google_color_url = "0066CC";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+<br />
+    <!--EOF_CONTENT_OF_PAGE-->
+  </td>
+</tr>
+</table>
+<!--End of main Content-->
+</td>
+</tr></table>
+<!--End global table of content-->
+<a>&nbsp;</a>
+<!--Footer-->
+<table cellspacing="0" cellpadding="4" width="950" border="0">
+  <tr>
+    <td class="footer" align="center" background="/ftrs.gif" >
+    &nbsp;&nbsp;<span class="footertext">&copy; 2006 - 2015 &nbsp;<a href="http://www.php.su" title="Портал PHP.SU"><span style="color:#003399"><b>PHP</b></span><span style="color:#009900"><b>.</b></span><span style="color:#FF0000"><b>SU</b></span></a> |
+      <a href="/project/?about" title="О проекте PHP.SU">О проекте</a> |
+      <a href="/gm/" target="_blank" title="Гостевая книга">Гостевая книга</a> |
+      <a href="/feedback/" target="_blank" title="Обратная связь с администрацией">Обратная связь</a> |
+      <a href="#" onclick='window.external.AddFavorite(location.href, document.title);return false'>Добавить в избранное</a> |
+      <a href="/project/?buttons" title="Кнопки портала">Наши кнопки</a> |
+      <a href="/project/?policy" title="Политика проекта">Политика проекта</a> |
+      <a href="#" onclick='window.external.AddFavorite(location.href, document.title);return false'>Добавить в избранное</a> |
+      <a href="map.html">sitemap</a> |
+    </span>
+    </td>
+  </tr>
+</table>
+<!--End of Footer-->
+</div>
+<div align="center">
+  <table cellspacing="0" cellpadding="4" width="950" border="0">
+    <tr>
+      <td align="center">
+        <a href="http://www.php.net" title="Powered by PHP" target="_blank"><img src="/forum/templates/InvisionExBB/im/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>&nbsp;
+        <a href="http://www.mysql.com/" target="_blank"><img src="/forum/templates/InvisionExBB/im/mysql.png" alt="Powered By MySQL" /></a>&nbsp;
+        <a href="http://nginx.org" target="_blank"><img src="/forum/templates/InvisionExBB/im/nginxpowered.png" alt="Powered by Nginx"></a>&nbsp;
+        <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank"><img src="/forum/templates/InvisionExBB/im/button-css.png" width="80" height="15" alt="Valid CSS" /></a>&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="footer" align="center" background="/ftrs.gif" >
+        &nbsp;<font size="1">Наши партнеры:</font> <span class="footertext"></span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+<noindex>
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write('<a href="http://www.liveinternet.ru/click" '+
+'target=_blank><img src="http://counter.yadro.ru/hit?t15.1;r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+';'+Math.random()+
+'" alt="" title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодн\я" '+
+'border=0 width=87 height=30><\/a>')//--></script><!--/LiveInternet-->
+&nbsp;
+<!--Rating@Mail.ru counter-->
+<script language="javascript" type="text/javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></script>
+<script language="javascript1.1" type="text/javascript"><!--
+a+=';j='+navigator.javaEnabled();js=11;//--></script>
+<script language="javascript1.2" type="text/javascript"><!--
+s=screen;a+=';s='+s.width+'*'+s.height;
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></script>
+<script language="javascript1.3" type="text/javascript"><!--
+js=13;//--></script><script language="javascript" type="text/javascript"><!--
+d.write('<a href="http://top.mail.ru/jump?from=1079531" target="_blank">'+
+'<img src="http://d8.c7.b0.a1.top.mail.ru/counter?id=1079531;t=52;js='+js+
+a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+
+'height="30" width="87"><\/a>');if(11<js)d.write('<'+'!-- ');//--></script>
+<noscript><a target="_blank" href="http://top.mail.ru/jump?from=1079531">
+<img src="http://d8.c7.b0.a1.top.mail.ru/counter?js=na;id=1079531;t=52" 
+height="30" width="87" border="0" alt="Рейтинг@Mail.ru"></a></noscript>
+<script language="javascript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>');//--></script>
+<!--// Rating@Mail.ru counter-->
+</noindex>
+&nbsp;&nbsp;&nbsp;</div></body>
+</html>
