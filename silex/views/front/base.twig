@@ -3,8 +3,86 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{% block title %}{% endblock %}</title>
+	<style>
+		 #logo {
+		 	float : left;
+		 }
+		 nav {
+		 	float : right;
+		 }
+		 nav ul li {
+			list-style: none;
+			display: inline-block;
+
+		 }
+		 nav ul li a {
+		 	display: block;
+		 	padding: 10px 20px;
+		 	text-decoration: none;
+		 	text-transform: uppercase;
+		 	color: #000;
+		 	}
+		  nav ul li:hover a {
+		  	background-color: #fff;;
+		  }
+		  nav ul li:hover {
+		  	color: #000;
+		  }
+
+
+		 
+		 .row:after {
+		 	content: '';
+		 	display: block;
+		 	clear : both;
+		 }
+		 header {
+		 	background-color: green;
+		 }
+		 footer {
+		 	background-color: #ccc;
+		 	padding: 10px 0;
+		 	text-align: center;
+
+
+		 }
+		 .wrap {
+		 	width: 940px;
+		 	margin: 0 auto;
+		 }
+	</style>
 </head>
 <body>
+	<div class="wrap">
+		<header class ="row">
+		<div id="logo">
+			<a href="{{ path('homepage') }}">
+			<img src="https://symphony.com/images/logos/sy_250x50_ko.png" alt="Main">
+				
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<a href="{{ path('homepage') }}">Home Page</a>
+				</li>
+				<li>
+					<a href="{{ path('blog') }}">Blog Page</a>
+				</li>
+				<li>
+					<a href="{{ path('contact') }}">Contact Page</a>
+				</li>
+
+			</ul>
+
+		</nav>
+
+	</header>
 	{% block content %}{% endblock %}
+
+
+	<footer> @My first web</footer>
+	</div>
+	
 </body>
 </html>

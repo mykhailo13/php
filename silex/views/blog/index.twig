@@ -1,0 +1,17 @@
+{% extends "front/base.twig" %}
+
+{% block title %}
+ Blog Page
+{% endblock %}
+
+{% block content %}
+
+<h1>BLOG</h1>
+<a href="{{ path('add_post') }}">Add post</a>
+
+{% for post in posts %}
+<h2>{{ post.heading }}</h2>
+<p>{{ post.content }}</p>
+{% endfor %}
+
+{% endblock %}
